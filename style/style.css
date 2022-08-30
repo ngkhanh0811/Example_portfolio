@@ -1,0 +1,275 @@
+body{
+    font-family: "CharlieDisplay", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #3b3b3b;
+    position: relative;
+}
+
+.contain{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding-top: 0.8em;
+    font-size: 1.6em;
+}
+
+/* Header Start  */
+header{
+    position: sticky;
+    top: 0;
+}
+header .container{
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+    height: 4em;
+    align-items: center;
+    margin-top: 0;
+}
+
+.container ul li{
+    list-style-type: none;
+    margin-right: 3em;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container ul li a:hover{
+    color: #fea701;
+    transition: ease-in-out 250ms;
+}
+/* Header End  */
+
+
+/* Section Intro  */
+#intro{
+    margin-top: -1em;
+    height: 53em;
+    width: auto;
+    background-image: url("../image/background01.png");
+    background-size: cover;
+    color: #fff;
+}
+
+#intro .content{
+    padding-top: 18em;
+}
+
+#intro .content .left{
+    text-align: left;
+    float: left;
+    padding-left: 9em;
+    padding-top: 18em;
+}
+
+#intro .content .left p{
+    line-height: 0.4em;
+    font-size: 1.4em;
+}
+#intro .content .left h1{
+    font-size: 2em;
+}
+
+#intro .content .right{
+    text-align: right;
+    float: right;
+    padding-right: 11em;
+}
+
+#intro .content .right p{
+    line-height: 0.4em;
+    font-size: 1.4em;
+}
+#intro .content .right h1{
+    font-size: 2em;
+}
+/* End  */
+
+/* Section About  */
+#about-me{
+    margin-top: -1em;
+    height: 53em;
+    width: auto;
+    background-image: url("../image/background02.jpg");
+    background-size: cover;
+}
+
+#about-me .contain{
+    padding-top: 6em;
+}
+
+#about-me .left-button-group{
+    margin-right: 0.4em;
+}
+
+#about-me ul li button{
+    background-color: #fea701;
+    color: #fff;
+    border: none;
+    height: 3em;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#about-me ul li button:hover{
+    background-color: #fe7f01;
+    transition: ease-in-out 300ms;
+    transform: scale(1.1);
+}
+
+#about-me .left-button-group ul li{
+    text-align: right;
+    line-height: 6.6em;
+}
+
+#about-me .right-button-group ul li{
+    text-align: left;
+    line-height: 6.6em;
+}
+
+#about-me .center-image{
+    width: 22%;
+    text-align: center;
+    padding-left: 1.4em;
+}
+
+#about-me ul li{
+    list-style-type: none;
+}
+
+#about-me ul li button{
+    font-size: 1em;
+    padding: 0 3em;
+}
+
+/* End  */
+
+/* Section Skill  */
+#skill{
+    margin-top: -1em;
+    height: 53em;
+    width: auto;
+    background-image: url("../image/background03.jpg");
+    background-size: cover;
+}
+
+#skill .contain{
+    margin-top: 12em;
+}
+
+#skill img{
+    width: 15%;
+    margin: 4em;
+    border-radius: 50%;
+}
+
+/* End  */
+
+/* Section Work  */
+#work{
+    margin-top: -1em;
+    height: 53em;
+    width: auto;
+    background-image: url("../image/background04.jpg");
+    background-size: cover;
+}
+
+#work img:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 300ms;
+}
+
+#work .contain ul{
+        display: flex;
+        justify-content: center;
+        margin-right: 2em;
+        padding-top: 9em;
+}
+
+#work .contain ul li{
+    list-style-type: none;
+    margin: 2em;
+}
+
+#work .contain ul li img{
+    width: 100%;
+    border: 5px solid #fea701;
+    border-radius: 20px;
+}
+
+#work .contain ul li p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.6em;
+    line-height: 0.2em;
+}
+
+/* End  */
+
+/* Section Contact  */
+#contact{
+    margin-top: -1em;
+    height: 39em;
+    width: auto;
+    background-image: url("../image/background-05.jpg");
+    background-size: cover;
+}
+
+#contact ul li{
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+#contact ul li input{
+    border-radius: 15px;
+    height: 4em;
+    width: 30%;
+}
+
+#contact ul li button{
+    height: 3em;
+    width: 6em;
+    color: white;
+    background-color: #fea701;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+textarea{
+    width: 40%;
+    border-radius: 15px;
+}
+/* End  */
+
+/* Footer  */
+footer{
+    background-color: #fea701;
+    height: 12em;
+    text-align: center;
+    color: #fff;
+}
+
+footer .contain{
+    border-bottom: 1px solid #fff;
+    height: 2.4em;
+    margin: 0 40em;
+}
+footer p{
+    padding-top: 1.4em;
+}
